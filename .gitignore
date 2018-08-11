@@ -2,4 +2,3 @@ node_modules/
 package-lock.json
 __MACOSX/
 static/
-dist/
