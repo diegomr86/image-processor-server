@@ -23,3 +23,8 @@ app.post('/images', upload.single('image'), (req, res, next) => {
 
     res.status(201).send({ url });
 });
+
+app.get('/teste', function (req, res, next) {
+  	res.set('Content-Type', 'text/html');
+  	res.send(new Buffer('<h2>Test OK!</h2>'));
+});

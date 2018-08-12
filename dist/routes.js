@@ -26,4 +26,8 @@ server_1.app.post('/images', server_1.upload.single('image'), (req, res, next) =
     });
     res.status(201).send({ url });
 });
+server_1.app.get('/teste', function (req, res, next) {
+    res.set('Content-Type', 'text/html');
+    res.send(new Buffer('<h2>Test OK!</h2>'));
+});
 //# sourceMappingURL=routes.js.map

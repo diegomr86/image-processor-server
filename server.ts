@@ -1,10 +1,14 @@
 import * as express from 'express';
 import * as multer from 'multer'
 import * as cors from 'cors'
-
+import * as fs from 'fs';
 // Generell properties
 export let UPLOAD_PATH = 'static'
 export let PORT = 3000;
+
+!fs.existsSync(UPLOAD_PATH) && fs.mkdirSync(UPLOAD_PATH);
+!fs.existsSync(UPLOAD_PATH+'/thumbs') && fs.mkdirSync(UPLOAD_PATH+'/thumbs');
+!fs.existsSync(UPLOAD_PATH+'/medium') && fs.mkdirSync(UPLOAD_PATH+'/medium');
 
 // Multer Settings for file upload
 var storage = multer.diskStorage({
