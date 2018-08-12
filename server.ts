@@ -4,7 +4,7 @@ import * as cors from 'cors'
 import * as fs from 'fs';
 // Generell properties
 export let UPLOAD_PATH = 'static'
-export let PORT = 3000;
+export let PORT = 5000;
 
 !fs.existsSync(UPLOAD_PATH) && fs.mkdirSync(UPLOAD_PATH);
 !fs.existsSync(UPLOAD_PATH+'/thumbs') && fs.mkdirSync(UPLOAD_PATH+'/thumbs');
