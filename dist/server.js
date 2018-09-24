@@ -6,8 +6,10 @@ const cors = require("cors");
 const fs = require("fs");
 // Generell properties
 exports.UPLOAD_PATH = 'static';
-exports.PORT = 3000;
+exports.PORT = 5000;
 !fs.existsSync(exports.UPLOAD_PATH) && fs.mkdirSync(exports.UPLOAD_PATH);
+!fs.existsSync(exports.UPLOAD_PATH + '/images') && fs.mkdirSync(exports.UPLOAD_PATH + '/images');
+!fs.existsSync(exports.UPLOAD_PATH + '/pdfs') && fs.mkdirSync(exports.UPLOAD_PATH + '/pdfs');
 !fs.existsSync(exports.UPLOAD_PATH + '/thumbs') && fs.mkdirSync(exports.UPLOAD_PATH + '/thumbs');
 !fs.existsSync(exports.UPLOAD_PATH + '/medium') && fs.mkdirSync(exports.UPLOAD_PATH + '/medium');
 // Multer Settings for file upload
