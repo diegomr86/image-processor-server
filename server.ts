@@ -32,6 +32,7 @@ app.use(cors());
 var routes = require('./routes');
 
 app.use('/static', express.static('static'));
+app.use(express.static('www'));
 
 // App startup
 app.listen(PORT, function () {

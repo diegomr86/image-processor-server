@@ -28,6 +28,7 @@ exports.app.use(cors());
 // Load our routes
 var routes = require('./routes');
 exports.app.use('/static', express.static('static'));
+exports.app.use(express.static('www'));
 // App startup
 exports.app.listen(exports.PORT, function () {
     console.log('listening on port: ' + exports.PORT);
