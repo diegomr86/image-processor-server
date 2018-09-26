@@ -28,11 +28,11 @@ export let upload = multer({ storage: storage })
 export const app = express();
 app.use(cors());
 
+app.use(express.static('www'));
+app.use('/static', express.static('static'));
+
 // Load our routes
 var routes = require('./routes');
-
-app.use('/static', express.static('static'));
-app.use(express.static('www'));
 
 // App startup
 app.listen(PORT, function () {
