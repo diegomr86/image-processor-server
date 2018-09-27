@@ -25,10 +25,10 @@ exports.upload = multer({ storage: storage });
 // Initialise App
 exports.app = express();
 exports.app.use(cors());
+exports.app.use(express.static('www'));
+exports.app.use('/static', express.static('static'));
 // Load our routes
 var routes = require('./routes');
-exports.app.use('/static', express.static('static'));
-exports.app.use(express.static('www'));
 // App startup
 exports.app.listen(exports.PORT, function () {
     console.log('listening on port: ' + exports.PORT);
