@@ -22,7 +22,7 @@ var storage = multer.diskStorage({
     }
 })
 
-export let upload = multer({ storage: storage })
+export let upload = multer({ storage: storage, limits: { fileSize: 50 * 1024 * 1024 } })
 
 // Initialise App
 export const app = express();

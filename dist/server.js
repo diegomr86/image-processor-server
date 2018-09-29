@@ -21,7 +21,7 @@ var storage = multer.diskStorage({
         cb(null, file.fieldname + '-' + Date.now() + '.' + file.originalname.split('.').pop());
     }
 });
-exports.upload = multer({ storage: storage });
+exports.upload = multer({ storage: storage, limits: { fileSize: 50 * 1024 * 1024 } });
 // Initialise App
 exports.app = express();
 exports.app.use(cors());
