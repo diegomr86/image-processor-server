@@ -1,7 +1,9 @@
 import { UPLOAD_PATH, app, upload } from './server';
 import * as fs from "fs";
 import * as sharp from 'sharp';
+import * as http from 'http';
 import { PDFImage } from 'pdf-image';
+
 
 // Upload a new image with description
 app.post('/images', upload.single('image'), (req, res, next) => {
@@ -53,6 +55,30 @@ app.post('/images', upload.single('image'), (req, res, next) => {
 });
 
 app.get('/teste', function (req, res, next) {
-  	res.set('Content-Type', 'text/html');
-  	res.send(new Buffer('<h2>Test OK!</h2>'));
+    res.set('Content-Type', 'text/html');
+    res.send(new Buffer('<h2>Test OK!</h2>'));
+});
+
+app.get('/oembed', function (req, res, next) {
+  res.set('Content-Type', 'application/json');
+
+  let rawData = '';
+  http.get('http://open.iframe.ly/api/oembed?url='+req.query.url+"&origin=diegomr86", (r) => {
+  r.on('data', (chunk) => { rawData += chunk; });
+  r.on('end', () => {
+      try {
+
+        const parsedData = JSON.parse(rawData);
+        console.log('parsedData', parsedData);
+        res.send(parsedData);
+      } catch (e) {
+        console.error('errrr',e.message);
+      }
+    });
+  }).on('error', (e) => {
+    console.error(`Got error: ${e.message}`);
+  });
+
+
+
 });
