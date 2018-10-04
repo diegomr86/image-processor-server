@@ -1,1 +1,156 @@
-webpackJsonp([14],{433:function(l,n,u){"use strict";function a(l){return t._27(0,[(l()(),t._25(-1,null,["\n"])),(l()(),t._3(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),t._2(2,16384,null,0,f.a,[p.a,t.l,t.C,[2,C.a]],null,null),(l()(),t._25(-1,null,["\n\n  "])),(l()(),t._3(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,h.b,h.a)),t._2(5,49152,null,0,m.a,[v.a,[2,C.a],[2,w.a],p.a,t.l,t.C],null,null),(l()(),t._25(-1,3,["\n    "])),(l()(),t._3(7,0,null,3,2,"ion-title",[],null,null,null,y.b,y.a)),t._2(8,49152,null,0,D.a,[p.a,t.l,t.C,[2,P.a],[2,m.a]],null,null),(l()(),t._25(-1,0,["Como ajudar"])),(l()(),t._25(-1,3,["\n  "])),(l()(),t._25(-1,null,["\n\n"])),(l()(),t._25(-1,null,["\n\n\n"])),(l()(),t._3(13,0,null,null,2,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,x.b,x.a)),t._2(14,4374528,null,0,H.a,[p.a,T.a,j.a,t.l,t.C,v.a,B.a,t.x,[2,C.a],[2,w.a]],null,null),(l()(),t._25(-1,1,["\n\n"])),(l()(),t._25(-1,null,["\n"]))],null,function(l,n){l(n,4,0,t._15(n,5)._hidden,t._15(n,5)._sbPadding);l(n,13,0,t._15(n,14).statusbarPadding,t._15(n,14)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=u(0),o=(u(1),u(57),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad HowToHelpPage")},l}()),s=function(){return function(){}}(),_=u(278),e=u(279),c=u(280),i=u(281),r=u(282),b=u(283),d=u(284),k=u(285),g=u(286),f=u(107),p=u(2),C=u(6),h=u(450),m=u(44),v=u(12),w=u(28),y=u(288),D=u(69),P=u(45),x=u(287),H=u(29),T=u(5),j=u(13),B=u(33),L=u(14),M=t._1({encapsulation:2,styles:[],data:{}}),V=t.Z("page-how-to-help",o,function(l){return t._27(0,[(l()(),t._3(0,0,null,null,1,"page-how-to-help",[],null,null,null,a,M)),t._2(1,49152,null,0,o,[w.a,L.a],null,null)],null,null)},{},{},[]),F=u(15),I=u(24),J=u(173),N=u(52);u.d(n,"HowToHelpPageModuleNgFactory",function(){return O});var O=t._0(s,[],function(l){return t._11([t._12(512,t.k,t.W,[[8,[_.a,e.a,c.a,i.a,r.a,b.a,d.a,k.a,g.a,V]],[3,t.k],t.v]),t._12(4608,F.m,F.l,[t.t,[2,F.w]]),t._12(4608,I.y,I.y,[]),t._12(4608,I.e,I.e,[]),t._12(512,F.c,F.c,[]),t._12(512,I.w,I.w,[]),t._12(512,I.l,I.l,[]),t._12(512,I.u,I.u,[]),t._12(512,J.a,J.a,[]),t._12(512,J.b,J.b,[]),t._12(512,s,s,[]),t._12(256,N.a,o,[])])})},450:function(l,n,u){"use strict";function a(l){return t._27(0,[(l()(),t._3(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t._2(1,278528,null,0,o.i,[t.r,t.s,t.l,t.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._3(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},s.b,s.a)),t._2(3,278528,null,0,o.i,[t.r,t.s,t.l,t.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._2(4,1097728,null,0,_.a,[[8,"bar-button"],e.a,t.l,t.C],null,null),(l()(),t._3(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._2(6,278528,null,0,o.i,[t.r,t.s,t.l,t.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._2(7,147456,null,0,c.a,[e.a,t.l,t.C],{name:[0,"name"]},null),(l()(),t._3(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t._2(9,278528,null,0,o.i,[t.r,t.s,t.l,t.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._25(10,null,["",""])),t._14(null,0),t._14(null,1),t._14(null,2),(l()(),t._3(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t._2(15,278528,null,0,o.i,[t.r,t.s,t.l,t.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._14(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,t._15(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return i}),n.b=a;var t=u(0),o=u(15),s=u(51),_=u(26),e=u(2),c=u(58),i=(u(6),u(28),t._1({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([14],{
+
+/***/ 494:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SettingsPageModule", function() { return SettingsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(559);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var SettingsPageModule = /** @class */ (function () {
+    function SettingsPageModule() {
+    }
+    SettingsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* SettingsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* SettingsPage */]),
+                __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* SettingsPage */]
+            ]
+        })
+    ], SettingsPageModule);
+    return SettingsPageModule;
+}());
+
+//# sourceMappingURL=settings.module.js.map
+
+/***/ }),
+
+/***/ 559:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers__ = __webpack_require__(146);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * The Settings page is a simple form that syncs with a Settings provider
+ * to enable the user to customize settings for the app.
+ *
+ */
+var SettingsPage = /** @class */ (function () {
+    function SettingsPage(navCtrl, settings, formBuilder, navParams, translate) {
+        this.navCtrl = navCtrl;
+        this.settings = settings;
+        this.formBuilder = formBuilder;
+        this.navParams = navParams;
+        this.translate = translate;
+        this.settingsReady = false;
+        this.profileSettings = {
+            page: 'profile',
+            pageTitleKey: 'SETTINGS_PAGE_PROFILE'
+        };
+        this.page = 'main';
+        this.pageTitleKey = 'SETTINGS_TITLE';
+        this.subSettings = SettingsPage_1;
+    }
+    SettingsPage_1 = SettingsPage;
+    SettingsPage.prototype._buildForm = function () {
+        var _this = this;
+        var group = {
+            option1: [this.options.option1],
+            option2: [this.options.option2],
+            option3: [this.options.option3]
+        };
+        switch (this.page) {
+            case 'main':
+                break;
+            case 'profile':
+                group = {
+                    option4: [this.options.option4]
+                };
+                break;
+        }
+        this.form = this.formBuilder.group(group);
+        // Watch the form for changes, and
+        this.form.valueChanges.subscribe(function (v) {
+            _this.settings.merge(_this.form.value);
+        });
+    };
+    SettingsPage.prototype.ionViewDidLoad = function () {
+        // Build an empty form for the template to render
+        this.form = this.formBuilder.group({});
+    };
+    SettingsPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        // Build an empty form for the template to render
+        this.form = this.formBuilder.group({});
+        this.page = this.navParams.get('page') || this.page;
+        this.pageTitleKey = this.navParams.get('pageTitleKey') || this.pageTitleKey;
+        this.translate.get(this.pageTitleKey).subscribe(function (res) {
+            _this.pageTitle = res;
+        });
+        this.settings.load().then(function () {
+            _this.settingsReady = true;
+            _this.options = _this.settings.allSettings;
+            _this._buildForm();
+        });
+    };
+    SettingsPage.prototype.ngOnChanges = function () {
+        console.log('Ng All Changes');
+    };
+    SettingsPage = SettingsPage_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-settings',template:/*ion-inline-start:"/home/diego/dev/agrofloresta/src/pages/settings/settings.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ pageTitle }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <form [formGroup]="form" *ngIf="settingsReady">\n    <ion-list *ngIf="page == \'main\'">\n      <ion-item>\n        <ion-label>{{ \'SETTINGS_OPTION1\' | translate }}</ion-label>\n        <ion-toggle formControlName="option1"></ion-toggle>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>{{ \'SETTINGS_OPTION2\' | translate }}</ion-label>\n        <ion-input formControlName="option2"></ion-input>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>{{ \'SETTINGS_OPTION3\' | translate }}</ion-label>\n        <ion-select formControlName="option3">\n          <ion-option value="1" checked="true">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <button ion-item [navPush]="subSettings" [navParams]="profileSettings">\n        {{ \'SETTINGS_PROFILE_BUTTON\' | translate }}\n      </button>\n    </ion-list>\n\n    <ion-list *ngIf="page == \'profile\'">\n      <ion-item>\n        <ion-label>{{ \'SETTINGS_OPTION4\' | translate }}</ion-label>\n        <ion-input formControlName="option4"></ion-input>\n      </ion-item>\n    </ion-list>\n  </form>\n\n</ion-content>'/*ion-inline-end:"/home/diego/dev/agrofloresta/src/pages/settings/settings.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers__["c" /* Settings */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["l" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */]])
+    ], SettingsPage);
+    return SettingsPage;
+    var SettingsPage_1;
+}());
+
+//# sourceMappingURL=settings.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=14.js.map

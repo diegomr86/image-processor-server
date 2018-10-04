@@ -1,1 +1,87 @@
-webpackJsonp([18],{428:function(l,n,u){"use strict";function a(l){return o._27(0,[(l()(),o._25(-1,null,["\n"])),(l()(),o._3(1,0,null,null,25,"ion-header",[],null,null,null,null,null)),o._2(2,16384,null,0,g.a,[f.a,o.l,o.C,[2,h.a]],null,null),(l()(),o._25(-1,null,["\n\n  "])),(l()(),o._3(4,0,null,null,21,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,v.b,v.a)),o._2(5,49152,null,0,k.a,[C.a,[2,h.a],[2,w.a],f.a,o.l,o.C],null,null),(l()(),o._25(-1,3,["\n    "])),(l()(),o._3(7,0,null,0,13,"ion-buttons",[["left",""]],null,null,null,null,null)),o._2(8,16384,null,1,q.a,[f.a,o.l,o.C,[2,P.a],[2,k.a]],null,null),o._23(603979776,1,{_buttons:1}),(l()(),o._25(-1,null,["\n      "])),(l()(),o._3(11,0,null,null,8,"button",[["icon-only",""],["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==o._15(l,13).toggle()&&a}return a},y.b,y.a)),o._2(12,1097728,[[2,4],[1,4]],0,j.a,[[8,""],f.a,o.l,o.C],null,null),o._2(13,1064960,null,0,A.a,[D.a,[2,h.a],[2,j.a],[2,k.a]],{menuToggle:[0,"menuToggle"]},null),o._2(14,16384,null,1,q.a,[f.a,o.l,o.C,[2,P.a],[2,k.a]],null,null),o._23(603979776,2,{_buttons:1}),(l()(),o._25(-1,0,["\n        "])),(l()(),o._3(17,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._2(18,147456,null,0,T.a,[f.a,o.l,o.C],{name:[0,"name"]},null),(l()(),o._25(-1,0,["\n      "])),(l()(),o._25(-1,null,["\n    "])),(l()(),o._25(-1,3,["\n\n    "])),(l()(),o._3(22,0,null,3,2,"ion-title",[],null,null,null,x.b,x.a)),o._2(23,49152,null,0,F.a,[f.a,o.l,o.C,[2,P.a],[2,k.a]],null,null),(l()(),o._25(-1,0,["Sobre"])),(l()(),o._25(-1,3,["\n  "])),(l()(),o._25(-1,null,["\n\n"])),(l()(),o._25(-1,null,["\n\n\n"])),(l()(),o._3(28,0,null,null,108,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,S.b,S.a)),o._2(29,4374528,null,0,z.a,[f.a,B.a,E.a,o.l,o.C,C.a,L.a,o.x,[2,h.a],[2,w.a]],null,null),(l()(),o._25(-1,1,["\n"])),(l()(),o._3(31,0,null,1,1,"h2",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Rede Agrofloresta "])),(l()(),o._25(-1,1,["\n"])),(l()(),o._3(34,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Plataforma de construção colaborativa de conhecimento sobre Agroflorestas."])),(l()(),o._25(-1,1,["\n"])),(l()(),o._3(37,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(39,0,null,1,0,"img",[["src","http://blog.tistu.com.br/wp-content/themes/tistu_blog/thumb.php?src=http://blog.tistu.com.br/wp-content/uploads/2016/03/agrofloresta_logo_6701.png&w=590&h=209&zc=1"],["width","590"]],null,null,null,null,null)),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(41,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Objetivo "])),(l()(),o._25(-1,1,["\n\nA idéia é criar-mos uma base de dados de conhecimento coletivo sobre agrofloresta como mais uma ferramenta que nós agricultores poderemos utilizar no trabalho com nossa agrofloresta, além de ajudar na difusão de conhecimento. \n\n"])),(l()(),o._3(44,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Requisitos principais "])),(l()(),o._25(-1,1,["\n"])),(l()(),o._3(47,0,null,1,22,"ul",[],null,null,null,null,null)),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(49,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Todo o conteúdo criado e mantido pela própria comunidade."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(52,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Qualquer pessoa pode criar ou alterar qualquer conteúdo (exceto comentários)."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(55,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["O Código fonte aberto (open source)."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(58,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["As informações devem estar disponíveis mesmo que o usuário não esteja conectado (offline first)."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(61,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Não ter nenhum tipo de publicidade"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(64,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Ser acessível em qualquer plataforma web, android e ios."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(67,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Servir de base para criação de novas tecnologias relacionadas."])),(l()(),o._25(-1,null,["\n"])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(71,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Como colaborar "])),(l()(),o._25(-1,1,["\n\nVocê pode ajudar esse projeto das seguintes formas:\n\n"])),(l()(),o._3(74,0,null,1,20,"ul",[],null,null,null,null,null)),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(76,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Faça sua propria agrofloresta"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(79,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Ajude a criar e manter o conteúdo da plataforma"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(82,0,null,null,2,"li",[],null,null,null,null,null)),(l()(),o._3(83,0,null,null,1,"a",[["href","https://github.com/diegomr86/agrofloresta"],["target","_blank"]],null,null,null,null,null)),(l()(),o._25(-1,null,["Trabalhe no código e no design da plataforma"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(86,0,null,null,2,"li",[],null,null,null,null,null)),(l()(),o._3(87,0,null,null,1,"a",[["href","https://github.com/diegomr86/agrofloresta/issues/new"],["target","_blank"]],null,null,null,null,null)),(l()(),o._25(-1,null,["Informe algum problema que você encontrar"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(91,0,null,null,2,"li",[],null,null,null,null,null)),(l()(),o._3(92,0,null,null,1,"a",[],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.openPage("DonatePage")&&a}return a},null,null)),(l()(),o._25(-1,null,["Faça uma doação"])),(l()(),o._25(-1,null,["\n"])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(96,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Funções implementadas "])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(99,0,null,1,13,"ul",[],null,null,null,null,null)),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(101,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Tabela de plantas: Uma lista contendo os cultivares e suas informações de ciclo, estrato, espaçamento, tempo de colheita, etc."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(104,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Guia básico: Um guia para nivelação de conhecimento dos usuários."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(107,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Post: Central de postagens onde qualquer pessoa pode postar um artigo, foto, vídeo, evento."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(110,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Eventos: central de eventos sobre agrofloresta como cursos, palestras, vivencias, etc."])),(l()(),o._25(-1,null,["\n"])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(114,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Funções à implementar "])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(117,0,null,1,10,"ul",[],null,null,null,null,null)),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(119,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Biblioteca: Aqui estará guardado todo o conteúdo postando na plataforma de forma organizada e acessível."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(122,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["TV agroflorestal: Player de vídeo com o conteúdo postado pelos usuários."])),(l()(),o._25(-1,null,["\n\t"])),(l()(),o._3(125,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),o._25(-1,null,["Mapa de agroflorestas: mapa real do país com os projetos agroflorestais cadastrados pela comunidade usando geolocalização."])),(l()(),o._25(-1,null,["\n"])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(129,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Licença "])),(l()(),o._25(-1,1,["\n\nEste software está licenciado sobre a licença:\n\n"])),(l()(),o._3(132,0,null,1,1,"h5",[],null,null,null,null,null)),(l()(),o._25(-1,null,[" Creative Commons (CC BY-NC-SA 4.0) (LICENSE) "])),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._3(135,0,null,1,0,"img",[["src","https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc-sa.jpg"]],null,null,null,null,null)),(l()(),o._25(-1,1,["\n\n"])),(l()(),o._25(-1,null,["\n"]))],function(l,n){l(n,13,0,"");l(n,18,0,"menu")},function(l,n){l(n,4,0,o._15(n,5)._hidden,o._15(n,5)._sbPadding);l(n,11,0,o._15(n,13).isHidden);l(n,17,0,o._15(n,18)._hidden);l(n,28,0,o._15(n,29).statusbarPadding,o._15(n,29)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(0),e=(u(1),u(57),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad AboutPage")},l.prototype.openPage=function(l,n){this.navCtrl.push(l,n)},l}()),t=function(){return function(){}}(),s=u(278),_=u(279),r=u(280),i=u(281),c=u(282),d=u(283),b=u(284),m=u(285),p=u(286),g=u(107),f=u(2),h=u(6),v=u(450),k=u(44),C=u(12),w=u(28),q=u(109),P=u(45),y=u(51),j=u(26),A=u(113),D=u(30),T=u(58),x=u(288),F=u(69),S=u(287),z=u(29),B=u(5),E=u(13),L=u(33),N=u(14),V=o._1({encapsulation:2,styles:[],data:{}}),I=o.Z("page-about",e,function(l){return o._27(0,[(l()(),o._3(0,0,null,null,1,"page-about",[],null,null,null,a,V)),o._2(1,49152,null,0,e,[w.a,N.a],null,null)],null,null)},{},{},[]),M=u(15),O=u(24),R=u(173),U=u(52);u.d(n,"AboutPageModuleNgFactory",function(){return G});var G=o._0(t,[],function(l){return o._11([o._12(512,o.k,o.W,[[8,[s.a,_.a,r.a,i.a,c.a,d.a,b.a,m.a,p.a,I]],[3,o.k],o.v]),o._12(4608,M.m,M.l,[o.t,[2,M.w]]),o._12(4608,O.y,O.y,[]),o._12(4608,O.e,O.e,[]),o._12(512,M.c,M.c,[]),o._12(512,O.w,O.w,[]),o._12(512,O.l,O.l,[]),o._12(512,O.u,O.u,[]),o._12(512,R.a,R.a,[]),o._12(512,R.b,R.b,[]),o._12(512,t,t,[]),o._12(256,U.a,e,[])])})},450:function(l,n,u){"use strict";function a(l){return o._27(0,[(l()(),o._3(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),o._2(1,278528,null,0,e.i,[o.r,o.s,o.l,o.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._3(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},t.b,t.a)),o._2(3,278528,null,0,e.i,[o.r,o.s,o.l,o.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._2(4,1097728,null,0,s.a,[[8,"bar-button"],_.a,o.l,o.C],null,null),(l()(),o._3(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._2(6,278528,null,0,e.i,[o.r,o.s,o.l,o.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._2(7,147456,null,0,r.a,[_.a,o.l,o.C],{name:[0,"name"]},null),(l()(),o._3(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),o._2(9,278528,null,0,e.i,[o.r,o.s,o.l,o.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._25(10,null,["",""])),o._14(null,0),o._14(null,1),o._14(null,2),(l()(),o._3(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),o._2(15,278528,null,0,e.i,[o.r,o.s,o.l,o.D],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._14(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,o._15(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return i}),n.b=a;var o=u(0),e=u(15),t=u(51),s=u(26),_=u(2),r=u(58),i=(u(6),u(28),o._1({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([18],{
+
+/***/ 480:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DonatePageModule", function() { return DonatePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__donate__ = __webpack_require__(542);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DonatePageModule = /** @class */ (function () {
+    function DonatePageModule() {
+    }
+    DonatePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */]),
+            ],
+        })
+    ], DonatePageModule);
+    return DonatePageModule;
+}());
+
+//# sourceMappingURL=donate.module.js.map
+
+/***/ }),
+
+/***/ 542:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DonatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DonatePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DonatePage = /** @class */ (function () {
+    function DonatePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    DonatePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DonatePage');
+    };
+    DonatePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-donate',template:/*ion-inline-start:"/home/diego/dev/agrofloresta/src/pages/donate/donate.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons left>\n      <button ion-button icon-only menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n\n    <ion-title>Faça uma doação</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<div>\n		<p>Esta plataforma foi criada e é mantida de forma totalmente voluntária.</p>\n		<p> Para manter os custos mensais de programação e hospedagem contamos apenas com doações. </p>\n		<p>Para ajudar você pode fazer uma doação em qualquer das contas abaixo: </p>\n		<h5>Doe com cartão de crédito, débito ou boleto:</h5>\n		<p>\n			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HH697JKUJ45YG" target="_blank"><img src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif"></a>\n		</p>\n		<br>\n		<h5>Doe com Bitcoin:</h5>\n		<p>Envie Bitcoin para o endereço abaixo:</p>\n		<p>3GxoF6jtUzjpaPWFoKjgaaZsagScCds9px</p>\n		<img src="assets/img/btc_qrcode.png">\n		<br>\n		<br>\n		<h5>Doe com Ether:</h5>\n		<p>Envie Ethereum para o endereço abaixo:</p>\n		<p>0x9f404Ad3D4a3d33A2abED35579984000de6adf10</p>\n		<img src="assets/img/eth_qrcode.png">\n		<br>\n		<br>\n	</div>	\n</ion-content>\n'/*ion-inline-end:"/home/diego/dev/agrofloresta/src/pages/donate/donate.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+    ], DonatePage);
+    return DonatePage;
+}());
+
+//# sourceMappingURL=donate.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=18.js.map

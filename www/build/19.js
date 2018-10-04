@@ -1,1 +1,83 @@
-webpackJsonp([19],{448:function(l,n,u){"use strict";function o(l){return a._27(0,[(l()(),a._3(0,0,null,null,39,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,v.b,v.a)),a._2(1,4374528,null,0,C.a,[y.a,P.a,w.a,a.l,a.C,R.a,L.a,a.x,[2,E.a],[2,M.a]],null,null),(l()(),a._25(-1,1,["\n  "])),(l()(),a._3(3,0,null,1,0,"div",[["class","splash-bg"]],null,null,null,null,null)),(l()(),a._25(-1,1,["\n  "])),(l()(),a._3(5,0,null,1,13,"div",[["class","splash-info"]],null,null,null,null,null)),(l()(),a._25(-1,null,["\n    "])),(l()(),a._3(7,0,null,null,0,"div",[["class","splash-logo"]],null,null,null,null,null)),(l()(),a._25(-1,null,["\n    "])),(l()(),a._3(9,0,null,null,8,"div",[["class","splash-intro"]],null,null,null,null,null)),(l()(),a._25(-1,null,["\n      "])),(l()(),a._3(11,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),a._25(-1,null,["Agrofloresta!"])),(l()(),a._25(-1,null,["\n      "])),(l()(),a._3(14,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),a._3(15,0,null,null,1,"small",[],null,null,null,null,null)),(l()(),a._25(-1,null,["Plataforma de aprendizado coletivo"])),(l()(),a._25(-1,null,["\n    "])),(l()(),a._25(-1,null,["\n  "])),(l()(),a._25(-1,1,["\n  "])),(l()(),a._3(20,0,null,1,18,"div",[["padding",""]],null,null,null,null,null)),(l()(),a._25(-1,null,["\n    "])),(l()(),a._3(22,0,null,null,5,"button",[["block",""],["icon-start",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0;if("click"===n){o=!1!==l.component.facebookLogin()&&o}return o},N.b,N.a)),a._2(23,1097728,null,0,A.a,[[8,""],y.a,a.l,a.C],{block:[0,"block"]},null),(l()(),a._25(-1,0,[" \n      "])),(l()(),a._3(25,0,null,0,1,"ion-icon",[["name","logo-facebook"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._2(26,147456,null,0,F.a,[y.a,a.l,a.C],{name:[0,"name"]},null),(l()(),a._25(-1,0,[" \n      Entrar com Facebook\n    "])),(l()(),a._25(-1,null,["\n"])),(l()(),a._25(-1,null,["    "])),(l()(),a._3(30,0,null,null,2,"button",[["block",""],["class","login"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0;if("click"===n){o=!1!==l.component.login()&&o}return o},N.b,N.a)),a._2(31,1097728,null,0,A.a,[[8,""],y.a,a.l,a.C],{block:[0,"block"]},null),(l()(),a._25(-1,0,["ENTRAR COM E-MAIL"])),(l()(),a._25(-1,null,["\n    "])),(l()(),a._3(34,0,null,null,3,"button",[["block",""],["class","login"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var o=!0;if("click"===n){o=!1!==l.component.signup()&&o}return o},N.b,N.a)),a._2(35,1097728,null,0,A.a,[[8,""],y.a,a.l,a.C],{block:[0,"block"]},null),(l()(),a._25(36,0,["",""])),a._18(131072,I.a,[O.a,a.h]),(l()(),a._25(-1,null,["\n  "])),(l()(),a._25(-1,1,["\n"])),(l()(),a._25(-1,null,["\n"]))],function(l,n){l(n,23,0,"");l(n,26,0,"logo-facebook");l(n,31,0,"");l(n,35,0,"")},function(l,n){l(n,0,0,a._15(n,1).statusbarPadding,a._15(n,1)._hasRefresher);l(n,25,0,a._15(n,26)._hidden);l(n,36,0,a._26(n,36,0,a._15(n,37).transform("SIGNUP")))})}Object.defineProperty(n,"__esModule",{value:!0});var a=u(0),t=(u(1),u(104)),e=(u(57),u(192)),i=u(193),c=(u(171),u(290)),r=function(){function l(l,n,u,o){this.navCtrl=l,this.fb=n,this.googlePlus=u,this.user=o}return l.prototype.facebookLogin=function(){var l=this;this.fb.login(["public_profile","email"]).then(function(n){l.fb.api("me?fields=id,name,email,first_name,picture.width(320).height(320).as(picture_large)",[]).then(function(n){l.user.signup({type:"user",_id:n.email,name:n.name,picture:n.picture_large.data.url,facebook_id:n.id}).then(function(n){l.navCtrl.setRoot(c.b)}).catch(function(u){"conflict"==u.name&&l.user.login(n.email).then(function(n){n&&l.navCtrl.setRoot(c.b)})})})}).catch(function(l){return console.log("Error logging into Facebook",l)})},l.prototype.googleLogin=function(){var l=this;this.googlePlus.login().then(function(n){l.user.signup({type:"user",_id:n.email,name:n.displayName,picture:n.imageUrl,google_id:n.userId}).then(function(n){l.navCtrl.setRoot(c.b)}).catch(function(u){"conflict"==u.name&&l.user.login(n.email).then(function(n){n&&l.navCtrl.setRoot(c.b)})})}).catch(function(l){return console.error(l)})},l.prototype.login=function(){this.navCtrl.push("LoginPage")},l.prototype.signup=function(){this.navCtrl.push("SignupPage")},l}(),_=function(){return function(){}}(),s=u(278),f=u(279),b=u(280),g=u(281),p=u(282),h=u(283),d=u(284),m=u(285),k=u(286),v=u(287),C=u(29),y=u(2),P=u(5),w=u(13),R=u(12),L=u(33),E=u(6),M=u(28),N=u(51),A=u(26),F=u(58),I=u(178),O=u(36),S=u(106),U=a._1({encapsulation:2,styles:[],data:{}}),W=a.Z("page-welcome",r,function(l){return a._27(0,[(l()(),a._3(0,0,null,null,1,"page-welcome",[],null,null,null,o,U)),a._2(1,49152,null,0,r,[M.a,e.a,i.a,S.a],null,null)],null,null)},{},{},[]),j=u(15),x=u(24),z=u(71),G=u(72),J=u(74),T=u(73),Z=u(108),q=u(173),B=u(52);u.d(n,"WelcomePageModuleNgFactory",function(){return D});var D=a._0(_,[],function(l){return a._11([a._12(512,a.k,a.W,[[8,[s.a,f.a,b.a,g.a,p.a,h.a,d.a,m.a,k.a,W]],[3,a.k],a.v]),a._12(4608,j.m,j.l,[a.t,[2,j.w]]),a._12(4608,x.y,x.y,[]),a._12(4608,x.e,x.e,[]),a._12(4608,z.b,z.a,[]),a._12(4608,G.a,G.b,[]),a._12(4608,J.b,J.a,[]),a._12(4608,T.b,T.a,[]),a._12(4608,O.a,O.a,[Z.a,z.b,G.a,J.b,T.b,O.b,O.c]),a._12(512,j.c,j.c,[]),a._12(512,x.w,x.w,[]),a._12(512,x.l,x.l,[]),a._12(512,x.u,x.u,[]),a._12(512,q.a,q.a,[]),a._12(512,q.b,q.b,[]),a._12(512,t.a,t.a,[]),a._12(512,_,_,[]),a._12(256,B.a,r,[]),a._12(256,O.c,void 0,[]),a._12(256,O.b,void 0,[])])})}});
+webpackJsonp([19],{
+
+/***/ 479:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContentPageModule", function() { return ContentPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__content__ = __webpack_require__(541);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ContentPageModule = /** @class */ (function () {
+    function ContentPageModule() {
+    }
+    ContentPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__content__["a" /* ContentPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__content__["a" /* ContentPage */]),
+                __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_3__content__["a" /* ContentPage */]
+            ]
+        })
+    ], ContentPageModule);
+    return ContentPageModule;
+}());
+
+//# sourceMappingURL=content.module.js.map
+
+/***/ }),
+
+/***/ 541:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContentPage = /** @class */ (function () {
+    function ContentPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ContentPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-content',template:/*ion-inline-start:"/home/diego/dev/agrofloresta/src/pages/content/content.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Content\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <p>\n    This is a perfect starting point for a page with primarily text content. The body is padded nicely and ready for prose.\n  </p>\n</ion-content>'/*ion-inline-end:"/home/diego/dev/agrofloresta/src/pages/content/content.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */]])
+    ], ContentPage);
+    return ContentPage;
+}());
+
+//# sourceMappingURL=content.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=19.js.map
