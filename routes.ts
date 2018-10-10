@@ -82,3 +82,43 @@ app.get('/oembed', function (req, res, next) {
 
 
 });
+
+app.get('/recreate_images', function (req, res, next) {
+
+
+  let rawData = '';
+  const fs = require('fs');
+
+  fs.readdir("static", (err, files) => {
+    files.forEach(file => {
+      if (file.endsWith('jpg') || file.endsWith('jpeg') || file.endsWith('png')) {      
+        var url = file
+        var thumb = UPLOAD_PATH+'/thumbs/'+url
+        var medium = UPLOAD_PATH+'/medium/'+url
+        try {
+          console.log(file);
+          sharp(UPLOAD_PATH+'/'+url)
+            .resize(100)
+            .toFile(thumb, function(err) {
+              if (err) { console.log("File upload error: ",err) };
+              sharp(UPLOAD_PATH+'/'+url)
+              .resize(600)
+              .toFile(medium, function(err) {
+
+                if (err) { console.log("File "+file+" upload error: ",err) };
+                // res.status(201).send({ url, medium, thumb});  
+              });
+
+            });
+
+        } catch (e) {
+          console.error('errrr',e.message);
+        }
+    
+        rawData += '<p>'+url+'</p>'
+      }
+    });
+  })
+
+
+});
