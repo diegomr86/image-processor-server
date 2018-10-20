@@ -2,7 +2,9 @@ import { UPLOAD_PATH, app, upload } from './server';
 import * as fs from "fs";
 import * as sharp from 'sharp';
 import * as http from 'http';
+import * as wget from 'node-wget';
 import { PDFImage } from 'pdf-image';
+// import * as request from 'request';
 
 
 // Upload a new image with description
@@ -35,11 +37,11 @@ app.post('/images', upload.single('image'), (req, res, next) => {
 
     } else {
 
-     	console.log('Generating thumb: '+thumb)
+      console.log('Generating thumb: '+thumb)
       sharp(UPLOAD_PATH+'/'+url)
-  	  .resize(100)
-  	  .toFile(thumb, function(err) {
-  	    if (err) { console.log("File upload error: ",err) };
+      .resize(100)
+      .toFile(thumb, function(err) {
+        if (err) { console.log("File upload error: ",err) };
         sharp(UPLOAD_PATH+'/'+url)
         .resize(600)
         .toFile(medium, function(err) {
@@ -47,10 +49,55 @@ app.post('/images', upload.single('image'), (req, res, next) => {
           res.status(201).send({ url, medium, thumb});  
         });
 
-  	  });
-      
-     	console.log('Generating medium: '+medium)
+      });
     }
+
+});
+
+"http://www.africau.edu/images/default/sample.pdf".replace(new RegExp('/[^/]*$'),"/");
+
+app.get('/preview_pdf', (req, res, next) => {
+    var remote = req.query.url
+    var url = remote.split("/").pop()
+    var thumb = UPLOAD_PATH+'/thumbs/'+url
+    var medium = UPLOAD_PATH+'/medium/'+url
+    console.log('Uploading file: '+UPLOAD_PATH+'/'+url)
+    
+    wget({ url:  remote, dest: UPLOAD_PATH+'/pdfs/' },
+      function (error, response, body) {
+        if (error) {
+          console.log('--- error:');
+          console.log(error);            // error encountered
+        } else {
+          medium = medium.replace('.pdf', '.png')
+          thumb = thumb.replace('.pdf', '.png')
+
+          var pdfImage = new PDFImage(UPLOAD_PATH+'/pdfs/'+url);
+          console.log('pdf loaded', pdfImage);
+          pdfImage.convertPage(0).then(function (imagePath) {
+            console.log('mediumConverted', imagePath);
+            sharp(imagePath)
+              .resize(100)
+              .toFile(thumb, function(err) {
+                if (err) { console.log("File upload error: ",err) };
+                sharp(imagePath)
+                .resize(600)
+                .toFile(medium, function(err) {
+                  if (err) { console.log("File upload error: ",err) };
+                  fs.unlink(UPLOAD_PATH+'/pdfs/'+url, function(err) {});
+                  fs.unlink(imagePath, function(err) {});
+
+                  res.status(201).send({ remote, medium, thumb});  
+                });
+
+              });
+
+          }).catch((e) => {
+            console.log('err:', e);
+          });
+        }
+      }
+    );
 
 });
 

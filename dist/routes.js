@@ -4,7 +4,9 @@ const server_1 = require("./server");
 const fs = require("fs");
 const sharp = require("sharp");
 const http = require("http");
+const wget = require("node-wget");
 const pdf_image_1 = require("pdf-image");
+// import * as request from 'request';
 // Upload a new image with description
 server_1.app.post('/images', server_1.upload.single('image'), (req, res, next) => {
     console.log(req.file);
@@ -50,8 +52,51 @@ server_1.app.post('/images', server_1.upload.single('image'), (req, res, next) =
                 res.status(201).send({ url, medium, thumb });
             });
         });
-        console.log('Generating medium: ' + medium);
     }
+});
+"http://www.africau.edu/images/default/sample.pdf".replace(new RegExp('/[^/]*$'), "/");
+server_1.app.get('/preview_pdf', (req, res, next) => {
+    var remote = req.query.url;
+    var url = remote.split("/").pop();
+    var thumb = server_1.UPLOAD_PATH + '/thumbs/' + url;
+    var medium = server_1.UPLOAD_PATH + '/medium/' + url;
+    console.log('Uploading file: ' + server_1.UPLOAD_PATH + '/' + url);
+    wget({ url: remote, dest: server_1.UPLOAD_PATH + '/pdfs/' }, function (error, response, body) {
+        if (error) {
+            console.log('--- error:');
+            console.log(error); // error encountered
+        }
+        else {
+            medium = medium.replace('.pdf', '.png');
+            thumb = thumb.replace('.pdf', '.png');
+            var pdfImage = new pdf_image_1.PDFImage(server_1.UPLOAD_PATH + '/pdfs/' + url);
+            console.log('pdf loaded', pdfImage);
+            pdfImage.convertPage(0).then(function (imagePath) {
+                console.log('mediumConverted', imagePath);
+                sharp(imagePath)
+                    .resize(100)
+                    .toFile(thumb, function (err) {
+                    if (err) {
+                        console.log("File upload error: ", err);
+                    }
+                    ;
+                    sharp(imagePath)
+                        .resize(600)
+                        .toFile(medium, function (err) {
+                        if (err) {
+                            console.log("File upload error: ", err);
+                        }
+                        ;
+                        fs.unlink(server_1.UPLOAD_PATH + '/pdfs/' + url, function (err) { });
+                        fs.unlink(imagePath, function (err) { });
+                        res.status(201).send({ remote, medium, thumb });
+                    });
+                });
+            }).catch((e) => {
+                console.log('err:', e);
+            });
+        }
+    });
 });
 server_1.app.get('/teste', function (req, res, next) {
     res.set('Content-Type', 'text/html');
@@ -113,9 +158,4 @@ server_1.app.get('/recreate_images', function (req, res, next) {
         });
     });
 });
-// 3.6M  static/thumbs
-// 4.0K  static/images
-// 4.0K  static/pdfs
-// 12M  static/medium
-// 91M  static/
 //# sourceMappingURL=routes.js.map

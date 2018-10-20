@@ -256,6 +256,14 @@ module.exports = [
         "runs": true
     },
     {
+        "file": "plugins/cordova-plugin-sqlite-2/dist/sqlite-plugin.js",
+        "id": "cordova-plugin-sqlite-2.sqlitePlugin",
+        "pluginId": "cordova-plugin-sqlite-2",
+        "clobbers": [
+            "sqlitePlugin"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
         "id": "cordova-plugin-statusbar.statusbar",
         "pluginId": "cordova-plugin-statusbar",
@@ -282,6 +290,7 @@ module.exports.metadata =
     "cordova-plugin-ionic-keyboard": "2.0.5",
     "cordova-plugin-ionic-webview": "1.1.19",
     "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-sqlite-2": "1.0.4",
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-whitelist": "1.3.3"
 }
