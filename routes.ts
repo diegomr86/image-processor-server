@@ -84,7 +84,7 @@ app.get('/preview_pdf', (req, res, next) => {
                   fs.unlink(UPLOAD_PATH+'/pdfs/'+url, function(err) {});
                   fs.unlink(imagePath, function(err) {});
 
-                  res.status(201).send({ url: medium, medium, thumb});  
+                  res.status(201).send({ url, medium, thumb});  
                 });
 
               });
