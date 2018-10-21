@@ -54,8 +54,6 @@ app.post('/images', upload.single('image'), (req, res, next) => {
 
 });
 
-"http://www.africau.edu/images/default/sample.pdf".replace(new RegExp('/[^/]*$'),"/");
-
 app.get('/preview_pdf', (req, res, next) => {
     var remote = req.query.url
     var url = remote.split("/").pop()
@@ -87,7 +85,7 @@ app.get('/preview_pdf', (req, res, next) => {
                   fs.unlink(UPLOAD_PATH+'/pdfs/'+url, function(err) {});
                   fs.unlink(imagePath, function(err) {});
 
-                  res.status(201).send({ remote, medium, thumb});  
+                  res.status(201).send({ url: remote, medium, thumb});  
                 });
 
               });
