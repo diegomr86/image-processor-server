@@ -59,9 +59,8 @@ app.get('/preview_pdf', (req, res, next) => {
     var url = remote.split("/").pop()
     var thumb = UPLOAD_PATH+'/thumbs/'+url
     var medium = UPLOAD_PATH+'/medium/'+url
-    console.log('Uploading file: '+UPLOAD_PATH+'/'+url)
     
-    wget({ url:  remote, dest: UPLOAD_PATH+'/pdfs/' },
+    wget({ url: remote, dest: UPLOAD_PATH+'/pdfs/' },
       function (error, response, body) {
         if (error) {
           console.log('--- error:');
@@ -85,7 +84,7 @@ app.get('/preview_pdf', (req, res, next) => {
                   fs.unlink(UPLOAD_PATH+'/pdfs/'+url, function(err) {});
                   fs.unlink(imagePath, function(err) {});
 
-                  res.status(201).send({ url: remote, medium, thumb});  
+                  res.status(201).send({ url: medium, medium, thumb});  
                 });
 
               });
