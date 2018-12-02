@@ -2,7 +2,10 @@ import { UPLOAD_PATH, app, upload } from './server';
 import * as fs from "fs";
 import * as sharp from 'sharp';
 import * as http from 'http';
+import * as https from 'https';
+import * as querystring from 'querystring';
 import * as wget from 'node-wget';
+import * as cheerio from 'cheerio';
 import { PDFImage } from 'pdf-image';
 // import * as request from 'request';
 
@@ -164,5 +167,72 @@ app.get('/recreate_images', function (req, res, next) {
     });
   })
 
+
+});
+
+app.get('/crawler', function (req, res, next) {
+  res.set('Content-Type', 'application/json');
+  let z = 0;
+
+  let plantList = [];
+  
+  for (var j = 1; j <= 13; j++) {
+
+    console.log('page: '+j);
+
+    var postData = querystring.stringify({
+      action: 'pagination_request',
+      sid: 'e9880705d0',
+      unid: '8ac92897f1905ac177fa8081bb3b2be8',
+      page: j,
+      ajax_nonce: '695074d788'
+    });
+
+    var options = {
+      hostname: 'www.jardineiro.net',
+      port: 443,
+      path: '/wp-admin/admin-ajax.php',
+      method: 'POST',
+      headers: {
+           'Content-Type': 'application/x-www-form-urlencoded',
+           'Content-Length': postData.length
+         }
+    };
+    
+    let rawData = '';
+    
+    console.log('pagex: '+j, postData);
+
+    var rre = https.request(options, (r) => {
+      r.on('data', (chunk) => { rawData += chunk; });
+      r.on('end', () => {
+
+        try {
+          var $ = cheerio.load(rawData);
+
+          $('.pt-cv-page .pt-cv-content-item').each(function(x) {
+            
+            z++
+            console.log($(this).find('a').attr('href') + z);
+            plantList.push($(this).find('a').attr('href'))
+            // if (j == 12) {
+            //   res.send(plantList);
+            // }
+          });
+
+        } catch (e) {
+          console.error('errrr',e.message);
+        }
+      });
+    }).on('error', (e) => {
+      console.error(`Got error: ${e.message}`);
+    });
+
+    rre.write(postData);
+ 
+
+  }
+
+  
 
 });
