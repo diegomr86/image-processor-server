@@ -1,1 +1,87 @@
-webpackJsonp([26],{451:function(n,l,a){"use strict";function u(n){return e._27(0,[(n()(),e._3(0,0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(n,l,a){var u=!0,t=n.component;if("click"===l){u=!1!==e._15(n,6).close()&&u}if("click"===l){u=!1!==t.openPage(n.context.$implicit)&&u}return u},v.b,v.a)),e._2(1,1097728,null,3,P.a,[C.a,h.a,e.l,e.C,[2,k.a]],null,null),e._23(335544320,4,{contentLabel:0}),e._23(603979776,5,{_buttons:1}),e._23(603979776,6,{_icons:1}),e._2(5,16384,null,0,y.a,[],null,null),e._2(6,16384,null,0,w.a,[M.a],{menuClose:[0,"menuClose"]},null),(n()(),e._25(7,2,["\n        ","\n      "]))],function(n,l){n(l,6,0,"")},function(n,l){n(l,7,0,l.context.$implicit.title)})}function t(n){return e._27(0,[e._23(402653184,1,{nav:0}),(n()(),e._3(1,0,null,null,16,"ion-menu",[["role","navigation"]],null,null,null,x.b,x.a)),e._21(6144,null,F.a,null,[L.a]),e._2(3,245760,null,2,L.a,[M.a,e.l,h.a,O.a,e.C,S.a,j.l,J.a,N.a],{content:[0,"content"]},null),e._23(335544320,2,{menuContent:0}),e._23(335544320,3,{menuNav:0}),(n()(),e._25(-1,0,["\n  "])),(n()(),e._3(7,0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,R.b,R.a)),e._2(8,4374528,[[2,4]],0,$.a,[h.a,O.a,J.a,e.l,e.C,N.a,S.a,e.x,[2,D.a],[2,H.a]],null,null),(n()(),e._25(9,1,["\n\t  ","\n    "])),(n()(),e._3(10,0,null,1,5,"ion-list",[],null,null,null,null,null)),e._2(11,16384,null,0,U.a,[h.a,e.l,e.C,O.a,j.l,J.a],null,null),(n()(),e._25(-1,null,["\n      "])),(n()(),e.Y(16777216,null,null,1,null,u)),e._2(14,802816,null,0,V.j,[e.M,e.J,e.r],{ngForOf:[0,"ngForOf"]},null),(n()(),e._25(-1,null,["\n    "])),(n()(),e._25(-1,1,["\n  "])),(n()(),e._25(-1,0,["\n"])),(n()(),e._25(-1,null,["\n\n"])),(n()(),e._3(19,0,null,null,2,"ion-nav",[],null,null,null,W.b,W.a)),e._21(6144,null,F.a,null,[Y.a]),e._2(21,4374528,[[1,4],["content",4]],0,Y.a,[[2,D.a],[2,H.a],N.a,h.a,O.a,e.l,e.x,e.C,e.k,j.l,Z.a,[2,q.a],J.a,e.m],{root:[0,"root"]},null)],function(n,l){var a=l.component;n(l,3,0,e._15(l,21));n(l,14,0,a.pages);n(l,21,0,a.rootPage)},function(n,l){var a=l.component;n(l,7,0,e._15(l,8).statusbarPadding,e._15(l,8)._hasRefresher);n(l,9,0,a.database.currentUser)})}Object.defineProperty(l,"__esModule",{value:!0});var e=a(0),o=(a(1),a(110)),_=(a(46),a(176),function(){function n(n,l){this.navCtrl=n,this.database=l,this.rootPage="ContentPage",this.pages=[{title:"Sign in",component:"LoginPage"},{title:"Signup",component:"SignupPage"}]}return n.prototype.ionViewDidLoad=function(){console.log("Hello MenuPage Page")},n.prototype.openPage=function(n){this.nav.setRoot(n.component)},n}()),i=function(){return function(){}}(),c=a(283),r=a(284),s=a(285),b=a(286),g=a(287),p=a(288),f=a(289),m=a(290),d=a(291),v=a(181),P=a(20),C=a(18),h=a(2),k=a(56),y=a(73),w=a(128),M=a(30),x=a(299),F=a(40),L=a(80),O=a(5),S=a(33),j=a(8),J=a(13),N=a(12),R=a(292),$=a(29),D=a(6),H=a(28),U=a(62),V=a(15),W=a(300),Y=a(63),Z=a(39),q=a(19),z=a(112),A=e._1({encapsulation:2,styles:[],data:{}}),B=e.Z("page-menu",_,function(n){return e._27(0,[(n()(),e._3(0,0,null,null,1,"page-menu",[],null,null,null,t,A)),e._2(1,49152,null,0,_,[H.a,z.a],null,null)],null,null)},{},{},[]),E=a(24),G=a(75),I=a(76),K=a(78),Q=a(77),T=a(37),X=a(115),nn=a(178),ln=a(55);a.d(l,"MenuPageModuleNgFactory",function(){return an});var an=e._0(i,[],function(n){return e._11([e._12(512,e.k,e.W,[[8,[c.a,r.a,s.a,b.a,g.a,p.a,f.a,m.a,d.a,B]],[3,e.k],e.v]),e._12(4608,V.m,V.l,[e.t,[2,V.w]]),e._12(4608,E.y,E.y,[]),e._12(4608,E.e,E.e,[]),e._12(4608,G.b,G.a,[]),e._12(4608,I.a,I.b,[]),e._12(4608,K.b,K.a,[]),e._12(4608,Q.b,Q.a,[]),e._12(4608,T.a,T.a,[X.a,G.b,I.a,K.b,Q.b,T.b,T.c]),e._12(512,V.c,V.c,[]),e._12(512,E.w,E.w,[]),e._12(512,E.l,E.l,[]),e._12(512,E.u,E.u,[]),e._12(512,nn.a,nn.a,[]),e._12(512,nn.b,nn.b,[]),e._12(512,o.a,o.a,[]),e._12(512,i,i,[]),e._12(256,ln.a,_,[]),e._12(256,T.c,void 0,[]),e._12(256,T.b,void 0,[])])})}});
+webpackJsonp([26],{
+
+/***/ 492:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CsasPageModule", function() { return CsasPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__csas__ = __webpack_require__(566);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CsasPageModule = /** @class */ (function () {
+    function CsasPageModule() {
+    }
+    CsasPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__csas__["a" /* CsasPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__csas__["a" /* CsasPage */]),
+            ],
+        })
+    ], CsasPageModule);
+    return CsasPageModule;
+}());
+
+//# sourceMappingURL=csas.module.js.map
+
+/***/ }),
+
+/***/ 566:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CsasPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CsasPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CsasPage = /** @class */ (function () {
+    function CsasPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CsasPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CsasPage');
+    };
+    CsasPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-csas',template:/*ion-inline-start:"/home/diego/dev/agrofloresta/src/pages/csas/csas.html"*/'<!--\n  Generated template for the CsasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Comunidade que sustenta a agricultura</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding text-justify>\n	<iframe src="https://www.youtube.com/embed/dnj9VgdYQeY" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>\n	<h5>CSA é um caminho que proporciona mais sustentabilidade</h5>\n	<p>De que forma se pode nos dias atuais, apesar de uma economia de mercado globalizada, manter-se uma agricultura familiar e diversificada, uma agricultura que produz alimentos frescos e saudáveis e ao mesmo tempo protege e cuida da natureza e da cultura de suas paisagens?</p>\n\n	<p>O conceito de uma Comunidade que Sustenta a Agricultura ( Community Supported Agriculture) denominada CSA, nos apresenta uma prática de sucesso para um desenvolvimento agrário sustentável e o escoamento de produtos orgânicos de uma forma direta ao consumidor, criando uma relação próxima entre quem produz e quem consome os produtos.</p>\n\n	<p>CSA é um modelo de um trabalho conjunto entre produtores de alimentos orgânicos e consumidores: um grupo fixo de consumidores se compromete por um ano (em geral) a cobrir o orçamento anual da produção agrícola. Em contrapartida os consumidores recebem os alimentos produzidos pelo sitio ou fazenda sem outros custos adicionais. Desta forma o produtor sem a pressão do mercado e do preço, pode se dedicar de forma livre a sua produção. E os consumidores recebem produtos de qualidade, sabendo quem os produz e aonde são produzidos.</p>\n\n	<p>CSA, uma Comunidade que Sustenta a Agricultura oferece uma nova forma de economia em uma atuação conjunta com agricultores ativos e agricultores passivos, para a produção de alimentos. Uma nova forma que oferece vantagens para a terra, plantas, animais e o homem. Nos últimos anos o conceito da CSA despertou grande interesse nos âmbitos de desenvolvimento regional, alimento e agricultura orgânica. Em 2011 no Forum Mundial de Porto Alegre, o conceito da CSA foi apresentado como um dos favoritos com grande potencial de futuro.</p>\n\n	<p>CSA BRASIL começou o seu trabalho no ano de 2011 com a meta de proteger as pequenas estruturas agrícolas através da formação de sítios da CSA em diferentes localidades. E para contribuir de forma efetiva com a melhora da situação alimentar de crianças e adultos. No Brasil existem hoje projetos em vários Estados. Você pode se informar mais sobre Associação CSA BRASIL.</p>\n\n	<h5>Você é consumidor?</h5>\n	<p>Por que você compra os seus alimentos no supermercado? Você não sabe que o produtor ganha muito pouco por estes produtos maravilhosos?  Procure um produtor perto de você, e busque mais gente para criar um projeto de uma comunidade que sustenta a agricultura.  Você vai receber produtos saudáveis, orgânicos, mais frescos direto do seu amigo produtor. Assim você estará salvando a si mesmo, a sua família, a agricultura, o meio ambiente e o futuro da agricultura familiar com respeito e responsabilidade.</p>\n	<h5>Você é produtor?</h5>\n	<p>Por que você vende para o mercado se não pode concorrer com os supermercados? Procure pessoas que gostem de você e do seu trabalho, que vão sustentar a sua produção.  Tenha um papel importante alimentando estas famílias. Você como produtor, que não usa agrotóxico, que salva o meio ambiente,  considerado um artista no campo no seu local de trabalho, sim você cura as pessoas! Por que você não pode ser remunerado como um medico?  Inicie a sua [r]evolução, associe-se ao CSA, uma comunidade que sustenta a agricultura.</p>\n\n	<p>APRENDA COMO FORMAR OU FAZER PARTE DE UMA CSA NOS <a href="http://csabrasil.org/csa/category/cursos/" target="_blank">CURSOS DA CSA BRASIL!</a></p>\n	<p>Existem diversas iniciativas de CSA no Brasil procure no mapa abaixo o mais próximo de você e entre em contato!</p>\n	<br>\n	<iframe frameborder="0" style="border:0; width: 100%; height: 100%"\n  src="https://www.google.com/maps/d/embed?mid=1LySgImg8tVgKoDBz5NtlnVXgsL0&ll=-15.921285605737474%2C-50.27411989999996&z=3" allowfullscreen>\n	</iframe>\n\n	<p>Fonte: <a href="http://csabrasil.org/" target="_blank">CSA BRASIL!</a></p>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/diego/dev/agrofloresta/src/pages/csas/csas.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+    ], CsasPage);
+    return CsasPage;
+}());
+
+//# sourceMappingURL=csas.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=26.js.map

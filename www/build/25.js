@@ -1,1 +1,87 @@
-webpackJsonp([25],{462:function(l,n,t){"use strict";function a(l){return r._27(0,[(l()(),r._3(0,0,null,null,1,"ion-icon",[["class","tab-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r._2(1,147456,null,0,C.a,[A.a,r.l,r.C],{name:[0,"name"],isActive:[1,"isActive"]},null)],function(l,n){var t=n.component;l(n,1,0,t.tab.tabIcon,t.tab.isSelected)},function(l,n){l(n,0,0,r._15(n,1)._hidden)})}function u(l){return r._27(0,[(l()(),r._3(0,0,null,null,1,"span",[["class","tab-button-text"]],null,null,null,null,null)),(l()(),r._25(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.tab.tabTitle)})}function o(l){return r._27(0,[(l()(),r._3(0,0,null,null,2,"ion-badge",[["class","tab-badge"]],null,null,null,null,null)),r._2(1,16384,null,0,S.a,[A.a,r.l,r.C],{color:[0,"color"]},null),(l()(),r._25(2,null,["",""]))],function(l,n){l(n,1,0,n.component.tab.tabBadgeStyle)},function(l,n){l(n,2,0,n.component.tab.tabBadge)})}function e(l){return r._27(0,[(l()(),r.Y(16777216,null,null,1,null,a)),r._2(1,16384,null,0,w.k,[r.M,r.J],{ngIf:[0,"ngIf"]},null),(l()(),r.Y(16777216,null,null,1,null,u)),r._2(3,16384,null,0,w.k,[r.M,r.J],{ngIf:[0,"ngIf"]},null),(l()(),r.Y(16777216,null,null,1,null,o)),r._2(5,16384,null,0,w.k,[r.M,r.J],{ngIf:[0,"ngIf"]},null),(l()(),r._3(6,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){var t=n.component;l(n,1,0,t.tab.tabIcon);l(n,3,0,t.tab.tabTitle);l(n,5,0,t.tab.tabBadge)},null)}function i(l){return r._27(0,[(l()(),r._3(0,0,null,null,1,"a",[["class","tab-button"],["href","#"],["role","tab"]],[[1,"id",0],[1,"aria-controls",0],[1,"aria-selected",0],[2,"has-title",null],[2,"has-icon",null],[2,"has-title-only",null],[2,"icon-only",null],[2,"has-badge",null],[2,"disable-hover",null],[2,"tab-disabled",null],[2,"tab-hidden",null]],[[null,"ionSelect"],[null,"click"]],function(l,n,t){var a=!0,u=l.component;if("click"===n){a=!1!==r._15(l,1).onClick()&&a}if("ionSelect"===n){a=!1!==u.select(l.context.$implicit)&&a}return a},e,E)),r._2(1,114688,null,0,x.a,[A.a,r.l,r.C],{tab:[0,"tab"]},{ionSelect:"ionSelect"})],function(l,n){l(n,1,0,n.context.$implicit)},function(l,n){l(n,0,1,[r._15(n,1).tab._btnId,r._15(n,1).tab._tabId,r._15(n,1).tab.isSelected,r._15(n,1).hasTitle,r._15(n,1).hasIcon,r._15(n,1).hasTitleOnly,r._15(n,1).hasIconOnly,r._15(n,1).hasBadge,r._15(n,1).disHover,!r._15(n,1).tab.enabled,!r._15(n,1).tab.show])})}function b(l){return r._27(0,[r._23(402653184,1,{_highlight:0}),r._23(402653184,2,{_tabbar:0}),r._23(402653184,3,{portal:0}),(l()(),r._3(3,0,[[2,0],["tabbar",1]],null,4,"div",[["class","tabbar"],["role","tablist"]],null,null,null,null,null)),(l()(),r.Y(16777216,null,null,1,null,i)),r._2(5,802816,null,0,w.j,[r.M,r.J,r.r],{ngForOf:[0,"ngForOf"]},null),(l()(),r._3(6,0,null,null,1,"div",[["class","tab-highlight"]],null,null,null,null,null)),r._2(7,16384,[[1,4]],0,L.a,[r.l,M.a],null,null),r._14(null,0),(l()(),r._3(9,16777216,[[3,3],["portal",1]],null,0,"div",[["tab-portal",""]],null,null,null,null,null))],function(l,n){l(n,5,0,n.component._tabs)},null)}function _(l){return r._27(0,[r._23(402653184,1,{_vp:0}),(l()(),r._3(1,16777216,[[1,3],["viewport",1]],null,0,"div",[],null,null,null,null,null)),(l()(),r._3(2,0,null,null,0,"div",[["class","nav-decor"]],null,null,null,null,null))],null,null)}function c(l){return r._27(0,[(l()(),r._3(0,0,null,null,12,"ion-tabs",[],null,null,null,b,H)),r._21(6144,null,R.a,null,[J.a]),r._2(2,4374528,null,0,J.a,[[2,O.a],[2,Y.a],F.a,A.a,r.l,j.a,r.C,P.a,$.a],null,null),(l()(),r._25(-1,0,["\n  "])),(l()(),r._3(4,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","home"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,_,q)),r._2(5,245760,null,0,N.a,[J.a,F.a,A.a,j.a,r.l,r.x,r.C,r.k,r.h,W.l,Z.a,[2,P.a],M.a,r.m],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._25(-1,0,["\n  "])),(l()(),r._3(7,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","search"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,_,q)),r._2(8,245760,null,0,N.a,[J.a,F.a,A.a,j.a,r.l,r.x,r.C,r.k,r.h,W.l,Z.a,[2,P.a],M.a,r.m],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._25(-1,0,["\n  "])),(l()(),r._3(10,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","cog"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,_,q)),r._2(11,245760,null,0,N.a,[J.a,F.a,A.a,j.a,r.l,r.x,r.C,r.k,r.h,W.l,Z.a,[2,P.a],M.a,r.m],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._25(-1,0,["\n"]))],function(l,n){var t=n.component;l(n,5,0,t.tab1Root,t.tab1Title,"home");l(n,8,0,t.tab2Root,t.tab2Title,"search");l(n,11,0,t.tab3Root,t.tab3Title,"cog")},function(l,n){l(n,4,0,r._15(n,5)._tabId,r._15(n,5)._btnId);l(n,7,0,r._15(n,8)._tabId,r._15(n,8)._btnId);l(n,10,0,r._15(n,11)._tabId,r._15(n,11)._btnId)})}Object.defineProperty(n,"__esModule",{value:!0});var r=t(0),s=(t(1),t(110)),d=(t(46),t(295)),f=function(){return function(l,n){var t=this;this.navCtrl=l,this.translateService=n,this.tab1Root=d.c,this.tab2Root=d.d,this.tab3Root=d.e,this.tab1Title=" ",this.tab2Title=" ",this.tab3Title=" ",n.get(["TAB1_TITLE","TAB2_TITLE","TAB3_TITLE"]).subscribe(function(l){t.tab1Title=l.TAB1_TITLE,t.tab2Title=l.TAB2_TITLE,t.tab3Title=l.TAB3_TITLE})}}(),T=function(){return function(){}}(),h=t(283),I=t(284),p=t(285),g=t(286),v=t(287),m=t(288),y=t(289),k=t(290),B=t(291),C=t(59),A=t(2),S=t(202),w=t(15),x=t(198),E=r._1({encapsulation:2,styles:[],data:{}}),L=t(130),M=t(13),R=t(40),J=t(126),O=t(28),Y=t(6),F=t(12),j=t(5),P=t(19),$=t(33),H=r._1({encapsulation:2,styles:[],data:{}}),N=t(197),W=t(8),Z=t(39),q=r._1({encapsulation:2,styles:[],data:{}}),z=t(37),D=r._1({encapsulation:2,styles:[],data:{}}),G=r.Z("page-tabs",f,function(l){return r._27(0,[(l()(),r._3(0,0,null,null,1,"page-tabs",[],null,null,null,c,D)),r._2(1,49152,null,0,f,[O.a,z.a],null,null)],null,null)},{},{},[]),K=t(24),Q=t(75),U=t(76),V=t(78),X=t(77),ll=t(115),nl=t(178),tl=t(55);t.d(n,"TabsPageModuleNgFactory",function(){return al});var al=r._0(T,[],function(l){return r._11([r._12(512,r.k,r.W,[[8,[h.a,I.a,p.a,g.a,v.a,m.a,y.a,k.a,B.a,G]],[3,r.k],r.v]),r._12(4608,w.m,w.l,[r.t,[2,w.w]]),r._12(4608,K.y,K.y,[]),r._12(4608,K.e,K.e,[]),r._12(4608,Q.b,Q.a,[]),r._12(4608,U.a,U.b,[]),r._12(4608,V.b,V.a,[]),r._12(4608,X.b,X.a,[]),r._12(4608,z.a,z.a,[ll.a,Q.b,U.a,V.b,X.b,z.b,z.c]),r._12(512,w.c,w.c,[]),r._12(512,K.w,K.w,[]),r._12(512,K.l,K.l,[]),r._12(512,K.u,K.u,[]),r._12(512,nl.a,nl.a,[]),r._12(512,nl.b,nl.b,[]),r._12(512,s.a,s.a,[]),r._12(512,T,T,[]),r._12(256,tl.a,f,[]),r._12(256,z.c,void 0,[]),r._12(256,z.b,void 0,[])])})}});
+webpackJsonp([25],{
+
+/***/ 493:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DonatePageModule", function() { return DonatePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__donate__ = __webpack_require__(567);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DonatePageModule = /** @class */ (function () {
+    function DonatePageModule() {
+    }
+    DonatePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__donate__["a" /* DonatePage */]),
+            ],
+        })
+    ], DonatePageModule);
+    return DonatePageModule;
+}());
+
+//# sourceMappingURL=donate.module.js.map
+
+/***/ }),
+
+/***/ 567:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DonatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(37);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DonatePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DonatePage = /** @class */ (function () {
+    function DonatePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    DonatePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DonatePage');
+    };
+    DonatePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-donate',template:/*ion-inline-start:"/home/diego/dev/agrofloresta/src/pages/donate/donate.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons left>\n      <button ion-button icon-only menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n\n    <ion-title>Faça uma doação</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<div>\n		<p>Esta plataforma foi criada e é mantida de forma totalmente voluntária.</p>\n		<p> Para manter os custos mensais de programação e hospedagem contamos apenas com doações. </p>\n		<p>Para ajudar você pode fazer uma doação em qualquer das contas abaixo: </p>\n		<h5>Doe com cartão de crédito, débito ou boleto:</h5>\n		<p>\n			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HH697JKUJ45YG" target="_blank"><img src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif"></a>\n		</p>\n		<br>\n		<h5>Doe com Bitcoin:</h5>\n		<p>Envie Bitcoin para o endereço abaixo:</p>\n		<p>3GxoF6jtUzjpaPWFoKjgaaZsagScCds9px</p>\n		<img src="assets/img/btc_qrcode.png">\n		<br>\n		<br>\n		<h5>Doe com Ether:</h5>\n		<p>Envie Ethereum para o endereço abaixo:</p>\n		<p>0x9f404Ad3D4a3d33A2abED35579984000de6adf10</p>\n		<img src="assets/img/eth_qrcode.png">\n		<br>\n		<br>\n	</div>	\n</ion-content>\n'/*ion-inline-end:"/home/diego/dev/agrofloresta/src/pages/donate/donate.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+    ], DonatePage);
+    return DonatePage;
+}());
+
+//# sourceMappingURL=donate.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=25.js.map
